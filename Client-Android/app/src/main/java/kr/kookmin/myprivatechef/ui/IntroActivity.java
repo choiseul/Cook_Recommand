@@ -1,5 +1,7 @@
 package kr.kookmin.myprivatechef.ui;
 
+//Intro Page Active
+
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Typeface;

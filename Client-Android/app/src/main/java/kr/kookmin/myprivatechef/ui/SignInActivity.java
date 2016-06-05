@@ -1,5 +1,7 @@
 package kr.kookmin.myprivatechef.ui;
 
+//Sign In Active 
+
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
@@ -111,11 +113,11 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
                     }
                     else                                                                        // else show snackBar
                         Snackbar
-                                .make(coordinatorLayoutView, "이메일 또는 비밀번호가 잘못되었습니다.", Snackbar.LENGTH_LONG)
+                                .make(coordinatorLayoutView, "?�메???�는 비�?번호가 ?�못?�었?�니??", Snackbar.LENGTH_LONG)
                                 .show();
                 } catch (JSONException e) {
                     Snackbar
-                            .make(coordinatorLayoutView, "이메일 또는 비밀번호가 잘못되었습니다.", Snackbar.LENGTH_LONG)
+                            .make(coordinatorLayoutView, "?�메???�는 비�?번호가 ?�못?�었?�니??", Snackbar.LENGTH_LONG)
                             .show();
                     e.printStackTrace();
                 }
@@ -125,7 +127,7 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
             @Override
             public void onErrorResponse(VolleyError error) {
                 Snackbar
-                        .make(coordinatorLayoutView, "잘못된 이메일 또는 닉네임 또는 비밀번호입니다.", Snackbar.LENGTH_LONG)
+                        .make(coordinatorLayoutView, "?�못???�메???�는 ?�네???�는 비�?번호?�니??", Snackbar.LENGTH_LONG)
                         .show();
                 Log.e("Volley", "SignIn Request : " + error.networkResponse);
                 Log.e("Volley","SignInActivity : error found");
