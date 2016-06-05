@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/activity_singnin_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/background"
+        android:longClickable="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@null">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="152dp"
+            android:layout_gravity="top"
+            android:layout_weight="0.37">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/logo"
+                android:src="@drawable/signinlogo_red"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp" />
+
+            <android.support.design.widget.CoordinatorLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/sb_signin_snackbarposition"
+                android:layout_alignParentTop="true"
+                android:layout_alignEnd="@+id/logo">
+            </android.support.design.widget.CoordinatorLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:theme="@style/MyTextInputLayoutTextAppearance"
+                        android:layout_marginLeft="40dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:layout_marginRight="40dp">
+
+                        <android.support.v7.widget.AppCompatEditText
+                            android:id="@+id/et_signin_email"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="18sp"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold"
+                            android:hint=" E-mail"
+                            android:singleLine="true" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:theme="@style/MyTextInputLayoutTextAppearance"
+                        android:layout_marginLeft="40dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:layout_marginRight="40dp"
+                        android:layout_marginBottom="20dp">
+
+                        <android.support.v7.widget.AppCompatEditText
+                            android:id="@+id/et_signin_password"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint=" Password"
+                            android:password="true"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold"
+                            android:textSize="18sp"
+                            android:singleLine="true" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3.5">
+
+            <Button
+                android:id="@+id/bt_signin_signin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:textAllCaps="false"
+                android:textColor="#deffffff"
+                android:textSize="24sp"
+                android:background="@drawable/border_style"
+                android:layout_marginRight="44dp"
+                android:layout_marginLeft="44dp"
+                android:layout_marginTop="12dp"/>
+
+            <Button
+                android:id="@+id/bt_signin_signup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="아직 회원이 아니신가요?"
+                android:textColor="#e1e4e604"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:background="@null"
+                android:layout_marginTop="70dp"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</FrameLayout>

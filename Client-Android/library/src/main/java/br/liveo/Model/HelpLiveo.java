@@ -3,9 +3,7 @@ package br.liveo.Model;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Rudsonlive on 26/05/15.
- */
+
 public class HelpLiveo {
 
     private HelpItem helpItem;

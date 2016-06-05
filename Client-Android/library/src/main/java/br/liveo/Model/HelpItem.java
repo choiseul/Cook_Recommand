@@ -3,9 +3,6 @@ package br.liveo.Model;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-/**
- * Created by Rudsonlive on 26/05/15.
- */
 public class HelpItem implements Parcelable {
 
     public String name;
