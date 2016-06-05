@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\AndroidSample\Client-Android\app\build\intermediates\exploded-aar\Client-Android\library\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="22dc31d4b5914f3d61a8e46ace686349785e2268">
+        <dex dex="C:\AndroidSample\Client-Android\app\build\intermediates\pre-dexed\debug\classes-4f0e1bd5cbe6fd48b8158ec930cfa4f879599e6a.jar" />
+    </item>
+    <item
+        jar="C:\Users\PRO13\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\AndroidSample\Client-Android\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-828c1db26b3c374b3cae34dc7d6d5d7cdf5ac7f8.jar" />
+    </item>
+    <item
+        jar="C:\AndroidSample\Client-Android\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5b37cf49773f7f17aca9830efd3053b0cac56728">
+        <dex dex="C:\AndroidSample\Client-Android\app\build\intermediates\pre-dexed\debug\classes-1b32535e3c3823ed3d0d8bbe4078674733675657.jar" />
+    </item>
+    <item
+        jar="C:\AndroidSample\Client-Android\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\AndroidSample\Client-Android\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-06d6658c4b7a8e1494b9bd29b5e1b60683c5e017.jar" />
+    </item>
+    <item
+        jar="C:\AndroidSample\Client-Android\app\build\intermediates\exploded-aar\com.android.support\design\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="C:\AndroidSample\Client-Android\app\build\intermediates\pre-dexed\debug\classes-df8c7bf9f3d41e8bc66b029c505cc170a13ae8c2.jar" />
+    </item>
+    <item
+        jar="C:\AndroidSample\Client-Android\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="C:\AndroidSample\Client-Android\app\build\intermediates\pre-dexed\debug\classes-0383addcc1cdb7e88beae62043019709a5552614.jar" />
+    </item>
+    <item
+        jar="C:\Users\PRO13\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.18\38da306aafee11459cd935a01d2c92a98dc670a4\library-1.0.18.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="38da306aafee11459cd935a01d2c92a98dc670a4">
+        <dex dex="C:\AndroidSample\Client-Android\app\build\intermediates\pre-dexed\debug\library-1.0.18-d46da16041f360745935fcf3dcb3e79ed2f937ea.jar" />
+    </item>
+    <item
+        jar="C:\AndroidSample\Client-Android\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\AndroidSample\Client-Android\app\build\intermediates\pre-dexed\debug\classes-26aa8600df780d0fe5f32005874e57c3b599c1ec.jar" />
+    </item>
+    <item
+        jar="C:\AndroidSample\Client-Android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\AndroidSample\Client-Android\app\build\intermediates\pre-dexed\debug\classes-dc4e9ccd23b71874cda4c889f5008716530a3138.jar" />
+    </item>
+
+</items>

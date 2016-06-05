@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/activity_singnin_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/intro_bac" />
+
+    <RelativeLayout
+        android:layout_width="342dp"
+        android:layout_height="210dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="25dp"
+        android:layout_gravity="left|center_vertical">
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        android:id="@+id/imageView"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginRight="3dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/intro_mpc3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="121dp" />
+
+</FrameLayout>

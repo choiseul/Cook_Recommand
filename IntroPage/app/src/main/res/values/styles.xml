@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.SupportDesign"/>
+        <!-- Customize your theme here. -->
+    <style name="Base.Theme.SupportDesign" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#ffffff</item>
+        <item name="colorPrimaryDark">#9E9E9E</item>
+        <item name="colorAccent">#ffffff</item>
+    </style>
+
+    <style name="MyTextInputLayoutTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColorHint">#93ffffff</item>
+        <item name="colorControlNormal">#ffffff</item>
+        <item name="colorControlActivated">#8e17222f</item>
+    </style>
+
+    <style name="MainTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#efd19d</item>
+        <item name="colorPrimaryDark">#ff000000</item>
+        <item name="colorAccent">#E91E63</item>
+    </style>
+
+    <style name="custom" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:fontFamily">NanumBarunGothicBold.ttf</item>
+    </style>
+
+    <style name="expandedappbar" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">#f7ffffff</item>
+    </style>
+    <style name="signup" parent="TextAppearance.AppCompat">
+        <item name="android:textColorHint">#93ffffff</item>
+        <item name="colorControlNormal">#ffffff</item>
+        <item name="colorControlActivated">#93ffffff</item>
+    </style>
+
+</resources>
