@@ -1,5 +1,6 @@
 package kr.kookmin.myprivatechef.ui;
 
+//Sign Up Page Activity
 
 import android.graphics.Typeface;
 import android.os.Bundle;
@@ -95,27 +96,27 @@ public class SignUpActivity extends AppCompatActivity {
         Matcher matcher = pattern.matcher(emailEt.getText().toString());
         if(!matcher.matches()) {
             Snackbar
-                    .make(coordinatorLayoutView, "이메일 형식이 올바르지 않습니다.", Snackbar.LENGTH_LONG)
+                    .make(coordinatorLayoutView, "?�메???�식???�바르�? ?�습?�다.", Snackbar.LENGTH_LONG)
                     .show();
             return false;
         }else if(usernameEt.getText().toString().length() < 6) {
             Snackbar
-                    .make(coordinatorLayoutView, "아이디를 6자리 이상 입력해주세요.", Snackbar.LENGTH_LONG)
+                    .make(coordinatorLayoutView, "?�이?��? 6?�리 ?�상 ?�력?�주?�요.", Snackbar.LENGTH_LONG)
                     .show();
             return false;
         }else if(!passwordEt.getText().toString().equals(passwordEt2.getText().toString())){
             Snackbar
-                    .make(coordinatorLayoutView, "비밀번호 확인이 다릅니다.", Snackbar.LENGTH_LONG)
+                    .make(coordinatorLayoutView, "비�?번호 ?�인???�릅?�다.", Snackbar.LENGTH_LONG)
                     .show();
             return false;
         }else if(passwordEt.getText().length() < 8) {
             Snackbar
-                    .make(coordinatorLayoutView, "비밀번호를 8자리 이상 입력해주세요.", Snackbar.LENGTH_LONG)
+                    .make(coordinatorLayoutView, "비�?번호�?8?�리 ?�상 ?�력?�주?�요.", Snackbar.LENGTH_LONG)
                     .show();
             return false;
         }else if(nickname.getText().length() < 6){
             Snackbar
-                    .make(coordinatorLayoutView, "닉네임을 6자리 이상 입력해주세요.", Snackbar.LENGTH_LONG)
+                    .make(coordinatorLayoutView, "?�네?�을 6?�리 ?�상 ?�력?�주?�요.", Snackbar.LENGTH_LONG)
                     .show();
             return false;
         }
@@ -137,10 +138,10 @@ public class SignUpActivity extends AppCompatActivity {
 
 //                        Snackbar.make(coordinatorLayoutView, json.get("error").toString(), Snackbar.LENGTH_LONG).show();
                         Snackbar
-                                .make(coordinatorLayoutView, "잘못된 이메일 또는 닉네임 또는 비밀번호입니다.", Snackbar.LENGTH_LONG)
+                                .make(coordinatorLayoutView, "?�못???�메???�는 ?�네???�는 비�?번호?�니??", Snackbar.LENGTH_LONG)
                                 .show();
                     } else {
-                        Toast.makeText(getApplicationContext(), "가입이 완료되었습니다.", Toast.LENGTH_SHORT);
+                        Toast.makeText(getApplicationContext(), "가?�이 ?�료?�었?�니??", Toast.LENGTH_SHORT);
                         finish();
                     }
 

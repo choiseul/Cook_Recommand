@@ -1,7 +1,8 @@
 package kr.kookmin.myprivatechef.Request;
 
-import android.util.Log;
+//Sign Up Request Page 
 
+import android.util.Log;
 import com.android.volley.AuthFailureError;
 import com.android.volley.NetworkResponse;
 import com.android.volley.Request;
