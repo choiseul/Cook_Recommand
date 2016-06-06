@@ -23,8 +23,6 @@ import kr.kookmin.myprivatechef.R;
 import kr.kookmin.myprivatechef.Request.JsonObjectRequest;
 import kr.kookmin.myprivatechef.util.AppSetting;
 
-
-
 public class IntroActivity_bac extends AppCompatActivity{
 
     TextView myTv;
