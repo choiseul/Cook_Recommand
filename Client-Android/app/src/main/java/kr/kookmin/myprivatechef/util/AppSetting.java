@@ -1,8 +1,5 @@
 package kr.kookmin.myprivatechef.util;
 
-/**
- * Created by lk on 2015. 8. 15..
- */
 public class AppSetting {
 
     /**
